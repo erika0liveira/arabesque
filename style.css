@@ -1,4 +1,23 @@
-.img-container {
-    text-align: center;
-    display: block;
-  }
+#logo{
+  text-align: center;
+  display: block;
+}
+
+.menu{
+  background-color: white;
+}
+
+.navbar-nav{
+  text-align: center;
+  margin: auto;
+  background-color: white;
+}
+
+.bloco1{
+  margin-top: 10px;
+}
+
+#historia{
+  width: auto;
+  
+}
