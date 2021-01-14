@@ -3,9 +3,18 @@
 }
 
 .navbar{
-    box-shadow: none !important;
+    /*box-shadow: none !important;*/
 } 
 
 .nav-link{
     color: black;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#navbarCenteredExample{
+    font-family: 'Candara';
+    font-size: 18px;
 }
