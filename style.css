@@ -1,23 +1,11 @@
-#logo{
-  text-align: center;
-  display: block;
+.fas.fa-search{
+    color: #e75480 ;
 }
 
-.menu{
-  background-color: white;
-}
+.navbar{
+    box-shadow: none !important;
+} 
 
-.navbar-nav{
-  text-align: center;
-  margin: auto;
-  background-color: white;
-}
-
-.bloco1{
-  margin-top: 10px;
-}
-
-#historia{
-  width: auto;
-  
+.nav-link{
+    color: black;
 }
