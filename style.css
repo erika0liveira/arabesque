@@ -1,20 +1,44 @@
-.fas.fa-search{
-    color: #e75480 ;
+.menu {
+    display: block;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.navbar{
-    /*box-shadow: none !important;*/
-} 
+.fas.fa-search {
+    color: #e75480;
+}
 
-.nav-link{
+.navbar {
+    box-shadow: none !important;
+}
+
+.nav-link {
     color: black;
 }
 
-.dropdown:hover>.dropdown-menu{
+.dropdown:hover>.dropdown-menu {
     display: block;
 }
 
-#navbarCenteredExample{
+#navbarCenteredExample {
     font-family: 'Candara';
     font-size: 18px;
+}
+
+.carousel .carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+footer{
+    background: rgba(233, 190, 198, 0.39);
 }
