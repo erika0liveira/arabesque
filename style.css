@@ -37,15 +37,22 @@
     min-height: 500px;
 }
 
-.submenu{
+.submenu {
     padding: 30px 80px;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
     background-color: #e75480;
 }
 
+.pagination>li.active>a {
+        background-color: #e75480!important;
+}
 
-footer{
+.pagination{
+    margin-top: 50px;
+}
+
+footer {
     background: rgba(233, 190, 198, 0.39);
 }
