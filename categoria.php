@@ -31,7 +31,52 @@
     include('menu.html');
     ?>
 
-    askdhasnjasjd
+    <!--Menu Lateral de Categoria-->
+
+    <div class="container">
+        <div class="col-md-12">
+
+            <div class="col-md-3 py-3">
+                <div class="box menu-categorias">
+                    <p class="text-center menu-categorias">CATEGORIA</p>
+                </div>
+
+                <ul class="ul-lista-produtos">
+
+                    <a href="#" class="link-lista-produtos">
+                        <li class="li-lista-produtos">
+                            <i class="icon-produtos fa fa-angle-right fa-lg"></i>
+                            &nbsp;PRODUTO 1
+                        </li>
+                    </a>
+
+                    <a href="#" class="link-lista-produtos">
+                        <li class="li-lista-produtos">
+                            <i class="icon-produtos fa fa-angle-right fa-lg"></i>
+                            &nbsp;PRODUTO 2
+                        </li>
+                    </a>
+
+                    <a href="#" class="link-lista-produtos">
+                        <li class="li-lista-produtos">
+                            <i class="icon-produtos fa fa-angle-right fa-lg"></i>
+                            &nbsp;PRODUTO 3
+                        </li>
+                    </a>
+
+                    <a href="#" class="link-lista-produtos">
+                        <li class="li-lista-produtos">
+                            <i class="icon-produtos fa fa-angle-right fa-lg"></i>
+                            &nbsp;PRODUTO 4
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
 
 
     <!-- Footer -->

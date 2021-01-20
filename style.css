@@ -56,3 +56,22 @@
 footer {
     background: rgba(233, 190, 198, 0.39);
 }
+
+.menu-produtos {
+    border-left: 1px solid #D1D1D1;
+    border-right: 1px solid #D1D1D1;
+}
+
+.box-titulo-categorias {
+    background: black;
+}
+
+
+
+.titulo-categorias {
+    color: #fff;
+    padding: 10px;
+    font-size: 2em;
+    font-family: 'CenturyGothic';
+    text-transform: uppercase;
+}
