@@ -17,53 +17,154 @@ include('head.html');
     include('menu.html');
     ?>
 
-    &nbsp;
-
     <div class="container">
 
-        <div class="row">
+        <!--Main layout-->
+        <main class="mt-5">
+            <div class="container dark-grey-text mt-5">
 
-            <div class="col-md-9">
+                <!--Grid row-->
+                <div class="row wow fadeIn">
 
-                <!-- Card -->
-                <div class="card">
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
 
-                    <!-- Image without zoom -->
-                    <div class="view overlay">
-                        <img class="img-fluid w-100" src="imagens/tutu/tutu-gamzatti.jpg" alt="Sample">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
+                        <img src="imagens/tutu/tutu-gamzatti.jpg" class="img-fluid" alt="">
+
                     </div>
-                    <!-- Image without zoom -->
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
+
+                        <!--Content-->
+
+                        <div class="p-4">
+
+                            <div class="text-center titulo-produto">
+                                <h3>TÍTULO DO PRODUTO</h3>
+                            </div>
+
+                            <div class="text-center mb-3">
+                                <a href="">
+                                    <span class="badge purple mr-1">home</span>
+                                </a>
+                                <a href="">
+                                    <span class="badge blue mr-1">categoria principal</span>
+                                </a>
+                                <a href="">
+                                    <span class="badge red mr-1">categoria secundaria</span>
+                                </a>
+                            </div>
+
+                            <p class="lead">
+                                <span class="mr-2">
+                                    <del>$200</del>
+                                </span>
+                                <span class="valor">$100</span>
+                            </p>
+
+                            <div class="tamanho py-3 mt-2">
+                                <p class="titulo-tamanho">Ecolha o tamanho:</p>
+                                <button type="button" class="btn btn-outline-primary waves-effect">PP</button>
+                                <button type="button" class="btn btn-outline-primary waves-effect">P</button>
+                                <button type="button" class="btn btn-outline-primary waves-effect">M</button>
+                                <button type="button" class="btn btn-outline-primary waves-effect">G</button>
+                                <button type="button" class="btn btn-outline-primary waves-effect">GG</button>
+                            </div>
+
+                            <form class="d-flex justify-content-left py-3">
+                                <!-- Default input -->
+                                <input type="number" value="1" aria-label="Search" class="form-control" style="width: 100px; margin-right:10px">
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add to cart
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
+
+                            </form>
+
+
+                            <p class="lead font-weight-bold mt-3">Description</p>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor suscipit libero eos atque quia ipsa
+                                sint voluptatibus!
+                                Beatae sit assumenda asperiores iure at maxime atque repellendus maiores quia sapiente.</p>
+
+
+
+                        </div>
+                        <!--Content-->
+
+                    </div>
+                    <!--Grid column-->
 
                 </div>
-                <!-- Card -->
-            </div>
+                <!--Grid row-->
 
-            <div class="col-md-3 py-1">
-                <h3 class="text-center titulo-produto">TÍTULO DO PRODUTO</h3>
-                <p class="text-center small text-muted text-uppercase">CATEGORIA</p>
-                <ul class="rating">
-                    <li>
-                        <i class="fas fa-star fa-sm text-primary"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-star fa-sm text-primary"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-star fa-sm text-primary"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-star fa-sm text-primary"></i>
-                    </li>
-                    <li>
-                        <i class="fas fa-star-half-alt fa-sm text-primary"></i>
-                    </li>
-                </ul>
-                <span class="ml-1">4.9/5.0 <a href="#!" class="material-tooltip-main card-link" data-toggle="tooltip" data-placement="top" title="Read reviews">(542 reviews)</a></span>
+                <hr>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 text-center">
+
+                        <h4 class="my-4 h4">COLOCAR CARROSEL</h4>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit
+                            voluptates,
+                            quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row
+                <div class="row wow fadeIn">
+
+                    <!--Grid column
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/11.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <!--Grid column
+
+                    <!--Grid column
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/12.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <!--Grid column
+
+                    <!--Grid column-
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/13.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <!--Grid column
+
+                </div>
+                <!--Grid row
+                -->
+
             </div>
-        </div>
+        </main>
+        <!--Main layout-->
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
 
