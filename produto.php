@@ -2,28 +2,13 @@
 
 <html lang="pt-br">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Arabesque - Produto</title>
 
-    <link href="style.css" rel="stylesheet">
-    <link href="categoria.css" rel="stylesheet">
-    <link href="produto.css" rel="stylesheet">
+<!--Head-->
+<?php
+include('head.html');
+?>
 
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
-
-    <title>Arabesque - Ballet Feminino</title>
-
-</head>
 
 <body>
 
@@ -45,7 +30,7 @@
 
                     <!-- Image without zoom -->
                     <div class="view overlay">
-                        <img class="img-fluid w-100" src="imagens/ex.jpg" alt="Sample">
+                        <img class="img-fluid w-100" src="imagens/tutu/tutu-gamzatti.jpg" alt="Sample">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -56,7 +41,7 @@
                 <!-- Card -->
             </div>
 
-            <div class="col-md-4 py-1">
+            <div class="col-md-3 py-1">
                 <h3 class="text-center titulo-produto">TÍTULO DO PRODUTO</h3>
                 <p class="text-center small text-muted text-uppercase">CATEGORIA</p>
                 <ul class="rating">
@@ -74,7 +59,7 @@
                     </li>
                     <li>
                         <i class="fas fa-star-half-alt fa-sm text-primary"></i>
-                    </li>                    
+                    </li>
                 </ul>
                 <span class="ml-1">4.9/5.0 <a href="#!" class="material-tooltip-main card-link" data-toggle="tooltip" data-placement="top" title="Read reviews">(542 reviews)</a></span>
             </div>

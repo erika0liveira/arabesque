@@ -24,3 +24,7 @@
     list-style: none;
     display: inline;
 }
+
+.img-fluid{
+    max-width: 80%!important;
+}
