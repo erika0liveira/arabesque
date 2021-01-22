@@ -50,9 +50,7 @@ include('head.html');
                     <div class="container-fluid">
 
                         <!-- Toggle button -->
-                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                            data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
                             <i class="fas fa-bars"></i>
                         </button>
 
@@ -87,7 +85,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -115,7 +117,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -129,7 +133,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -143,7 +149,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -157,7 +165,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -171,7 +181,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -185,7 +197,9 @@ include('head.html');
                                     This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.
                                 </p>
-                                <button type="button" class="btn btn-primary">Button</button>
+                                <button class="btn btn-primary btn-md my-0 p" type="submit">Add
+                                    <i class="fas fa-shopping-cart ml-1"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -214,19 +228,13 @@ include('head.html');
     <?php
     include('footer.html');
     ?>
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"></script>
