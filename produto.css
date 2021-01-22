@@ -1,43 +1,43 @@
-.text-center.nome-produto {
+.text-center.nome-produto{
     color: black;
     font-size: 30px;
     font-family: 'Candara';
     text-transform: uppercase;
 }
 
-.card-body.text-center {
+.card-body.text-center{
     display: inline;
 }
 
-.titulo-produto {
+.titulo-produto{
     color: black;
     font-size: 30px;
     font-family: 'Candara';
     text-transform: uppercase;
 }
 
-.badge {
-    color: #e75480 !important;
+.badge{
+    color: #e75480!important;
 }
 
-.mb-3 {
+.mb-3{
     font-size: 15px;
     font-family: 'Candara';
     text-transform: uppercase;
 }
 
-.mr-2 {
-    color: red;
-    font-size: 1.5rem !important;
+.mr-2{
+    color:red;
+    font-size: 1.5rem!important;
 }
 
-.valor {
-    font-size: 1.5rem !important;
-    color: green;
+.valor{
+    font-size: 1.5rem!important;
+    color:green;
     font-weight: bolder;
 }
 
-.titulo-tamanho {
+.titulo-tamanho{
     color: black;
     font-size: 1.25rem;
     font-family: 'Candara';
@@ -45,13 +45,6 @@
 }
 
 .btn-outline-primary {
-    color: black !important;
-    border-color: #e75480 !important;
-}
-
-.form-control {
-
-    width: 100px;
-    margin-right: 10%;
-
+    color: black!important;
+    border-color: #e75480!important;
 }
