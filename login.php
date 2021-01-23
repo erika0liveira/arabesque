@@ -2,24 +2,66 @@
 
 <html lang="pt-br">
 
-<title>Arabesque - Carrinho</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!--Head-->
-<?php
-include('head.html');
-?>
+    <link href="login.css" rel="stylesheet">
+
+    <title>Arabesque - Login</title>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+</head>
 
 <body>
 
-    <!--Menu-->
-    <?php
-    include('menu.html');
-    ?>
+    <img class="wave" src="imagens/login/wave.svg">
+    <div class="container">
+        <div class="img">
+            <img src="imagens/login/dancer.svg">
+        </div>
+        <div class="login-container">
+            <form action="index.php">
+                <img class="avatar" src="imagens/login/avatar.svg">
+                <h2>Bem Vinda</h2>
+                <div class="input-div one focus">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Apelido</h5>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+                
+                <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div>
+                        <h5>Senha</h5>
+                        <input class="input" type="password">
+                    </div>
+                </div>
 
-    <!-- Footer -->
-    <?php
-    include('footer.html');
-    ?>
+                <a href="#">Esqueceu sua senha?</a>
+                <input type="submit" class="btn" id="btn-login" value="Login">
+
+            </form>
+        </div>
+    </div>
+
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <!--Script-->
+    <script type="text/javascript" src="js/main.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
