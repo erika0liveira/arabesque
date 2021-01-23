@@ -300,20 +300,6 @@ include('head.html');
   </main>
   <!--Main layout-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- Footer -->
   <?php
   include('footer.html');
