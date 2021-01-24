@@ -73,3 +73,120 @@ footer {
     font-family: 'CenturyGothic';
     text-transform: uppercase;
 }
+
+.text-center.nome-produto{
+    color: black;
+    font-size: 30px;
+    font-family: 'Candara';
+    text-transform: uppercase;
+}
+
+.card-body.text-center{
+    display: inline;
+}
+
+.titulo-produto{
+    color: black;
+    font-size: 30px;
+    font-family: 'Candara';
+    text-transform: uppercase;
+}
+
+.badge{
+    color: #e75480!important;
+}
+
+.mb-3{
+    font-size: 15px;
+    font-family: 'Candara';
+    text-transform: uppercase;
+}
+
+.mr-2{
+    color:red;
+    font-size: 1.5rem!important;
+}
+
+.valor{
+    font-size: 1.5rem!important;
+    color:green;
+    font-weight: bolder;
+}
+
+.titulo-tamanho{
+    color: black;
+    font-size: 1.25rem;
+    font-family: 'Candara';
+    text-transform: uppercase;
+}
+
+.btn-outline-primary {
+    color: black!important;
+    border-color: #e75480!important;
+}
+
+.btn.btn-secondary {
+    background-color: #e75480;
+}
+
+.text-muted{
+    font-size: 20px;
+    padding: 1px 0px 0px 0px;
+    font-family: 'candara';
+    text-transform: uppercase;
+}
+
+.badge{
+    font-size: 20px!important;
+    font-family: 'candara';
+}
+
+.img-carrinho{
+    max-width: 200px;
+    padding: 10px;
+}
+
+.produto{
+    font-size: 1rem;
+    font-family: 'candara';
+}
+
+.btn-group{
+    box-shadow: none!important;
+}
+
+.menu-categorias{
+    color: white;
+    font-size: 30px;
+    font-family: 'Candara';
+    text-transform: uppercase;
+}
+
+.box.menu-categorias{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.text-center.menu-categorias{
+    margin-bottom: 0;
+}
+
+.ul-lista-produtos{
+    list-style: none;
+    font-size: 20px;
+    padding: 1px 0px 0px 0px;
+    font-family: 'candara';
+    text-transform: uppercase;
+}
+
+.link-lista-produtos {
+    color: #595859;
+}
+
+.li-lista-produtos {
+    border-bottom: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+    padding: 10px;
+}
+
